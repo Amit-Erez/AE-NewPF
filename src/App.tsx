@@ -1,14 +1,16 @@
-import { cn } from "./lib/utils"
-
+import Hero from "./components/sections/Hero"
+import Nav from "./components/sections/Nav"
+import Work from "./components/sections/Work"
+import "./index.css"
 
 function App() {
 
   return (
-    <div className={cn(
-        "h-screen flex items-center justify-center bg-black text-white text-2xl"
-      )}>
-      Template Ready
-    </div>
+    <>
+    <Nav />
+    <Hero />
+    <Work />
+    </>
   )
 }
 
