@@ -51,6 +51,7 @@ export default function ProjectCard({
             <div className="mock-body">
               <img
                 src={project.imageSrc}
+                loading="lazy"
                 alt="EQ-Project Image"
                 width={"full"}
                 height={"full"}
