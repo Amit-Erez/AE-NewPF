@@ -2,7 +2,7 @@ import type { Project } from "../types";
 import eqPhoto from "../assets/pluginScreenshot.png";
 import pulsePhoto from "../assets/pulse-splitscreens.png";
 import summaristPhoto from "../assets/summarist-PS.png";
-import skinstricPhoto from "../assets/skinstric-PS.png";
+import skinstricPhoto from "../assets/Skinstric-PS.png";
 import ultraversePhoto from "../assets/NFT-PS.png";
 
 export const projects: Project[] = [
