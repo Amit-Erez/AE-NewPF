@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import resume from "../../assets/Amit-Erez-CV.pdf";
+
 
 export default function Contact() {
   return (
@@ -32,17 +34,8 @@ export default function Contact() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <a
-            className="contact-cta"
-            href="/cdn-cgi/l/email-protection#86e7ebeff2e3f4e3fce2e3f0c6e1ebe7efeaa8e5e9eb"
-          >
-            <span
-              className="__cf_email__"
-              data-cfemail="593834302d3c2b3c233d3c2f193e34383035773a3634"
-            >
-              [email&#160;protected]
-            </span>{" "}
-            <span>↗</span>
+          <a className="contact-cta" href="mailto:amiterezdev@gmail.com">
+            <span>amiterezdev@gmail.com</span> <span>↗</span>
           </a>
         </motion.div>
       </div>
@@ -60,8 +53,8 @@ export default function Contact() {
           LinkedIn
         </a>
         <a href="tel:+15038534849">+1 (503) 853-4849</a>
-        <a href="#" target="_blank">
-          Download résumé ↗
+        <a href={resume} target="_blank">
+          résumé ↗
         </a>
       </motion.div>
     </section>
