@@ -11,7 +11,7 @@ export default function Contact() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <span className="pulse-dot"></span>Currently open to roles · Remote or
+          <span className="pulse-dot"></span>Currently open to roles · Remote /
           Portland, OR
         </motion.div>
         <motion.div

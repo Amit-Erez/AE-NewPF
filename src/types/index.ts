@@ -11,3 +11,9 @@ export type Project = {
     imageSrc: string;
     canvasClass: string;
 }
+
+export interface FadeVolumeParams {
+  audio: HTMLAudioElement;
+  target: number;
+  duration: number;
+}

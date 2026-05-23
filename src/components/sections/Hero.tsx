@@ -1,5 +1,6 @@
 import "../../index.css";
 import { motion } from "framer-motion";
+import headshot from "../../assets/headshot_circle.png";
 
 export default function Hero() {
   return (
@@ -10,18 +11,39 @@ export default function Hero() {
             <span className="dot"></span>Frontend Developer · Portland, OR
           </span>
         </div>
-
-        <h1 className="hero-title reveal in">
-          <span className="row">
-            Amit <span className="it">Erez</span>
-          </span>
-          <span className="row">
-            builds the <span className="it">web</span>.
-          </span>
-        </h1>
+        <div className="hero_title-container">
+          <h1 className="hero-title reveal in">
+            <span className="row">
+              Amit <span className="it">Erez</span>
+            </span>
+            <span className="row">
+              builds the <span className="it">web</span>.
+            </span>
+          </h1>
+          <motion.div
+            className="headshot_container"
+            initial={{
+              x: 300,
+              y: -300,
+              opacity: 0,
+              scale: 0.1,
+              filter: "saturate(0)",
+            }}
+            whileInView={{ opacity: 1, scale: 1, filter: "saturate(1)",     x: 0,
+    y: 0, }}
+            transition={{ duration: 1.2, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
+            <img
+              src={headshot}
+              alt="Headshot of Amit Erez"
+              className="headshot"
+            />
+          </motion.div>
+        </div>
         <motion.div
           className="hero-sub-row"
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
