@@ -1,6 +1,6 @@
 import "../../index.css";
 import logo from "../../assets/AE-LOGO.svg";
-import resume from "../../assets/Amit-Erez-CV.pdf";
+import resume from "../../assets/Amit_Erez_CV-5-2026.pdf";
 
 export default function Nav() {
   return (
@@ -24,7 +24,7 @@ export default function Nav() {
           <a href="#experience">Experience</a>
           <a href="#stack">Stack</a>
           <a href="#contact" className="nav-cta">
-            Get in touch <span className="arrow">↗</span>
+            Say Hi <span className="arrow">↗</span>
           </a>
         </div>
       </div>
