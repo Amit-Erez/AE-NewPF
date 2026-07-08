@@ -48,13 +48,15 @@ export default function Stack() {
               <li>Tailwind CSS</li>
               <li>CSS Modules</li>
               <li>Radix UI</li>
+              <li>SVG</li>
             </ul>
           </div>
           <div className="stack-card">
             <div className="k">Backend &amp; Auth</div>
             <ul>
-              <li>Firebase v9</li>
+              <li>Node.js / Express</li>
               <li>REST APIs</li>
+              <li>Firebase v9</li>
               <li>Stripe</li>
               <li>Webhooks</li>
             </ul>
@@ -65,12 +67,11 @@ export default function Stack() {
               <li>Web Audio API</li>
               <li>BiquadFilterNode</li>
               <li>AnalyserNode</li>
-              <li>SVG</li>
               <li>Canvas</li>
             </ul>
           </div>
           <div className="stack-card">
-            <div className="k">Data &amp; Async</div>
+            <div className="k">Data &amp; Services</div>
             <ul>
               <li>Axios</li>
               <li>Recharts</li>

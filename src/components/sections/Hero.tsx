@@ -11,6 +11,8 @@ import tailwind from "../../assets/tailwind.svg";
 import redux from "../../assets/redux-logo.png";
 import firebase from "../../assets/firebase.png";
 import zustand from "../../assets/zustand.svg";
+import node from "../../assets/nodejs.png"
+import express from "../../assets/express.png"
 
 export default function Hero() {
   return (
@@ -112,6 +114,9 @@ export default function Hero() {
           <span className="it">Redux toolkit</span>
           <span>Tailwind CSS</span>
           <span>Firebase</span>
+          <span>
+            Node.js<span className="it">/Express</span>
+          </span>
           <span className="it">Stripe</span>
           <span>Web Audio API</span>
           <span>SVG &amp; Canvas</span>
@@ -125,6 +130,9 @@ export default function Hero() {
           <span className="it">Redux toolkit</span>
           <span>Tailwind CSS</span>
           <span>Firebase</span>
+          <span>
+            Node.js<span className="it">/Express</span>
+          </span>
           <span className="it">Stripe</span>
           <span>Web Audio API</span>
           <span>SVG &amp; Canvas</span>
@@ -164,6 +172,12 @@ export default function Hero() {
           <span>
             <img src={next} alt="next logo" className="logos" />
           </span>
+          <span>
+            <img src={node} alt="next logo" className="logos" />
+          </span>
+          <span>
+            <img src={express} alt="next logo" className="logos" />
+          </span>
 
           {/* <!-- duplicated for seamless loop --> */}
           <span>
@@ -195,6 +209,12 @@ export default function Hero() {
           </span>
           <span>
             <img src={next} alt="next logo" className="logos" />
+          </span>
+          <span>
+            <img src={node} alt="next logo" className="logos" />
+          </span>
+          <span>
+            <img src={express} alt="next logo" className="logos" />
           </span>
         </div>
       </div>

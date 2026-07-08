@@ -15,8 +15,8 @@ export default function Work() {
         >
           <div className="sec-num">§ 01 · Selected Work</div>
           <h2 className="sec-title">
-            Five projects shipped in <span className="it">2025</span>, each held
-            to a 96+ Lighthouse score.
+            Six projects shipped in <span className="it">2025/6</span>, each held
+            to a 98+ Lighthouse score.
           </h2>
         </motion.div>
 
@@ -29,7 +29,7 @@ export default function Work() {
           >
             <ProjectCard
               project={projects[0]}
-              className={"project reveal in"}
+              className={"project flip reveal in"}
             />
           </motion.div>
           <motion.div
@@ -40,17 +40,6 @@ export default function Work() {
           >
             <ProjectCard
               project={projects[1]}
-              className={"project flip reveal in"}
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 44 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <ProjectCard
-              project={projects[2]}
               className={"project reveal in"}
             />
           </motion.div>
@@ -61,7 +50,7 @@ export default function Work() {
             viewport={{ once: true }}
           >
             <ProjectCard
-              project={projects[3]}
+              project={projects[2]}
               className={"project flip reveal in"}
             />
           </motion.div>
@@ -72,7 +61,29 @@ export default function Work() {
             viewport={{ once: true }}
           >
             <ProjectCard
+              project={projects[3]}
+              className={"project reveal in"}
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 44 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+          >
+            <ProjectCard
               project={projects[4]}
+              className={"project flip reveal in"}
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 44 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+          >
+            <ProjectCard
+              project={projects[5]}
               className={"project reveal in"}
             />
           </motion.div>
