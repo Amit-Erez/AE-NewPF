@@ -1,6 +1,6 @@
 import "../../index.css";
 import logo from "../../assets/AE-LOGO.svg";
-import resume from "../../assets/Amit_Erez_CV-5-2026.pdf";
+import resume from "../../assets/Amit_Erez_CV-7-2026.pdf";
 
 export default function Nav() {
   return (
@@ -12,7 +12,7 @@ export default function Nav() {
           </span>
           <span>Amit Erez</span>
           <span className="brand-status">
-            <span className="pulse-dot"></span>Available May 2026
+            <span className="pulse-dot"></span>Available July 2026
           </span>
         </a>
         <div className="nav-links">

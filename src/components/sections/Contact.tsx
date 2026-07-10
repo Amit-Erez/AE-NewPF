@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import resume from "../../assets/Amit_Erez_CV-5-2026.pdf";
+import resume from "../../assets/Amit_Erez_CV-7-2026.pdf";
 
 
 export default function Contact() {
