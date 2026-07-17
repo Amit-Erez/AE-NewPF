@@ -85,7 +85,29 @@ export default function Experience() {
             </div>
           </div>
           <div className="tl-row">
-            <div className="tl-date">Apr 2023 — May 2025</div>
+            <div className="tl-date">Sep 2018 - Mar 2023</div>
+            <div>
+              <h3 className="tl-role">Operations QA / Artist Services</h3>
+              <div className="tl-company">CD Baby · Portland, OR</div>
+              <p className="tl-blurb">
+                • Performed quality assurance on digital music releases,
+                inspecting catalogue metadata (titles, contributors, ISRC and
+                UPC codes, artwork) and approving releases for delivery to
+                streaming platforms. <br/><br/>
+                • Resolved artist-facing distribution
+                issues via phone, email and chat, translating platform
+                requirements into plain language for non-technical clients.
+              </p>
+            </div>
+            <div className="tl-stack">
+              <span>Digital Assets</span>
+              <span>Metadata</span>
+              <span>QA</span>
+              <span>Customer Service</span>
+            </div>
+          </div>
+          <div className="tl-row">
+            <div className="tl-date">2005 — 2025</div>
             <div>
               <h3 className="tl-role">
                 Musician <span className="it">(Self-employed)</span>

@@ -4,7 +4,7 @@ import pulsePhoto from "../assets/pulse-splitscreens.png";
 import summaristPhoto from "../assets/summarist-PS.png";
 import skinstricPhoto from "../assets/Skinstric-PS.png";
 import ultraversePhoto from "../assets/NFT-PS.png";
-import musicIp from "../assets/Music-ip-dash.png"
+import musicIp from "../assets/Music-ip-dash.png";
 
 export const projects: Project[] = [
   {
@@ -14,8 +14,19 @@ export const projects: Project[] = [
     title: "Music IP Dashboard",
     subtitle: "Funding Review App",
     description:
-      "An internal admin tool for a fictionalised music-financing company. Analysts review catalogue-backed funding applications, update status, leave timestamped notes, and flag records for follow-up. Built with React, TypeScript, and a Node/Express backend.",
-    tags: ["React", "TypeScript", "TanStack Query", "Tailwind CSS", "shadcn/ui", "Express", "Node", "Zod", "Vitest", "React Testing Library"],
+      "A full-stack funding review dashboard for music catalogues. React and TypeScript frontend on an Express REST API with Zod-validated writes, status workflows, timestamped review notes and Vitest coverage. Deployed frontend and backend.",
+    tags: [
+      "React",
+      "TypeScript",
+      "TanStack Query",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Express",
+      "Node",
+      "Zod",
+      "Vitest",
+      "React Testing Library",
+    ],
     liveDemoUrl: "https://music-ip-ae.vercel.app/",
     githubUrl: "https://github.com/Amit-Erez/MusicIP",
     imageSrc: musicIp,
@@ -28,7 +39,7 @@ export const projects: Project[] = [
     title: "Pulse",
     subtitle: "Campaign Analytics",
     description:
-      "A unified dashboard for digital-agency teams: sortable, filterable, chart-ready, and built on URL-persistent state so filtered views can be shared between accounts. Zustand + Radix UI + Recharts, tested with Vitest.",
+      "A campaign analytics dashboard for agency teams. Sortable, filterable and chart-ready, with URL-persistent state so any filtered view can be shared. React, TypeScript, Zustand, Radix UI, Recharts, tested with Vitest.",
     tags: ["React", "TypeScript", "Zustand", "Tailwind", "Recharts", "Vitest"],
     liveDemoUrl: "https://ae-pulse.vercel.app/",
     githubUrl: "https://github.com/Amit-Erez/pulse-campaign-analytics",

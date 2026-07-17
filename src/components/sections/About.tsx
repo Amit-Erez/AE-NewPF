@@ -59,7 +59,7 @@ export default function About({
             <div className="stats">
               <div>
                 <div className="stat-num">
-                  96<span className="it">%</span>
+                  99<span className="it">%</span>
                 </div>
                 <div className="stat-label">Avg Lighthouse score</div>
               </div>

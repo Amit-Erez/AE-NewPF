@@ -15,8 +15,7 @@ export default function Work() {
         >
           <div className="sec-num">§ 01 · Selected Work</div>
           <h2 className="sec-title">
-            Six projects shipped in <span className="it">2025/6</span>, each held
-            to a 98+ Lighthouse score.
+            Six projects shipped in <span className="it">2025/6</span>
           </h2>
         </motion.div>
 
