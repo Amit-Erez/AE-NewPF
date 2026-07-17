@@ -31,7 +31,7 @@ export const projects: Project[] = [
       "A unified dashboard for digital-agency teams: sortable, filterable, chart-ready, and built on URL-persistent state so filtered views can be shared between accounts. Zustand + Radix UI + Recharts, tested with Vitest.",
     tags: ["React", "TypeScript", "Zustand", "Tailwind", "Recharts", "Vitest"],
     liveDemoUrl: "https://ae-pulse.vercel.app/",
-    githubUrl: "https://github.com/Amit-Erez/CampaignDashboard",
+    githubUrl: "https://github.com/Amit-Erez/pulse-campaign-analytics",
     imageSrc: pulsePhoto,
     canvasClass: "canvas-pulse",
   },

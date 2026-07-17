@@ -1,6 +1,6 @@
 import "../../index.css";
 import logo from "../../assets/AE-LOGO.svg";
-import resume from "../../assets/Amit_Erez_CV-7-2026.pdf";
+import resume from "../../assets/Amit_Erez_CV.pdf";
 
 export default function Nav() {
   return (

@@ -11,8 +11,8 @@ import tailwind from "../../assets/tailwind.svg";
 import redux from "../../assets/redux-logo.png";
 import firebase from "../../assets/firebase.png";
 import zustand from "../../assets/zustand.svg";
-import node from "../../assets/nodejs.png"
-import express from "../../assets/express.png"
+import node from "../../assets/nodejs.png";
+import express from "../../assets/express.png";
 
 export default function Hero() {
   return (
@@ -40,7 +40,7 @@ export default function Hero() {
                 Amit <span className="it">Erez</span>
               </span>
               <span className="row smaller">
-                crafts <span className="it">interfaces</span>.
+                ships <span className="it">interfaces</span>.
               </span>
             </h1>
           </motion.div>
@@ -78,11 +78,10 @@ export default function Hero() {
           viewport={{ once: true }}
         >
           <p className="hero-lede reveal in">
-            I'm a frontend developer shipping production <em>React</em> and{" "}
-            <em>Next.js</em> applications — from Stripe-integrated platforms to
-            real-time audio tools. Twenty years of disciplined client work as a
-            music producer, now turned into <em>maintainable</em>, performant
-            UI.
+            Frontend developer in Portland, OR, working in <em>React</em>, <em>TypeScript</em> and 
+            <em> Next.js</em>, with growing full-stack experience in <em>Node</em> and <em>Express</em>.
+            Twenty years of music production taught me to deliver client work on
+            deadline; six deployed projects show what that looks like in code.
           </p>
           <div className="hero-meta reveal in">
             <div className="meta-row">
@@ -92,10 +91,6 @@ export default function Hero() {
             <div className="meta-row">
               <span>Focus</span>
               <b>React · Next.js · TS</b>
-            </div>
-            <div className="meta-row">
-              <span>Lighthouse</span>
-              <b>96 / 100 avg.</b>
             </div>
             <div className="meta-row">
               <span>Status</span>
