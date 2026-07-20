@@ -10,7 +10,6 @@ import Work from "./components/sections/Work";
 import "./index.css";
 import type { FadeVolumeParams } from "./types";
 
-
 function fadeVolume({ audio, target, duration }: FadeVolumeParams): void {
   if (!audio) return;
 
@@ -24,7 +23,7 @@ function fadeVolume({ audio, target, duration }: FadeVolumeParams): void {
     currentStep++;
     audio.volume = Math.min(
       1,
-      Math.max(0, start + (change * currentStep) / steps)
+      Math.max(0, start + (change * currentStep) / steps),
     );
 
     if (currentStep >= steps) {
@@ -37,7 +36,6 @@ function fadeVolume({ audio, target, duration }: FadeVolumeParams): void {
 function App() {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-
 
   useEffect(() => {
     const audio = new Audio("/amitTrack.mp3");
@@ -63,9 +61,9 @@ function App() {
         audio.volume = 0;
         await audio.play();
         setIsPlaying(true);
-        fadeVolume({audio, target: 0.8, duration: 1000});
+        fadeVolume({ audio, target: 0.8, duration: 1000 });
       } else {
-        fadeVolume({audio, target: 0, duration: 1000});
+        fadeVolume({ audio, target: 0, duration: 1000 });
         setIsPlaying(false);
         setTimeout(() => {
           audio.pause();
@@ -79,12 +77,14 @@ function App() {
   return (
     <>
       <Nav />
-      <Hero />
-      <Work />
-      <About togglePlay={togglePlay} isPlaying={isPlaying}/>
-      <Experience />
-      <Stack />
-      <Contact />
+      <main>
+        <Hero />
+        <Work />
+        <About togglePlay={togglePlay} isPlaying={isPlaying} />
+        <Experience />
+        <Stack />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
