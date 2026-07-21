@@ -21,7 +21,7 @@ export default function ProjectMiniCard({
             <p className="project-desc">{project.description}</p>
           </div>
           <div>
-            <div className="project-tags" style={{ marginBottom: "20px" }}>
+            <div className="project-tags" style={{ marginBottom: "16px" }}>
               {project.tags.map((tag: string, index: number) => (
                 <span key={index}>{tag}</span>
               ))}

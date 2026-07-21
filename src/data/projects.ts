@@ -79,9 +79,9 @@ export const projects: Project[] = [
     num: "05 / 06",
     year: "2025 — Live",
     title: "Skinstric-AI ",
-    subtitle: "AI Skin Analysis",
+    subtitle: "Skin Analysis",
     description:
-      "Responsive React app integrating an AI skin-analysis API. Custom camera capture and upload flow, client-side previews, interactive dashboard rendering complex metrics for non-technical users, and sub-1.5s FCP.",
+      "Responsive React app integrating an AI skin-analysis API. Camera capture & upload flow, client-side previews, interactive dashboard rendering complex metrics for non-technical users, and sub-1.5s FCP.",
     tags: [
       "React",
       "REST APIs",
