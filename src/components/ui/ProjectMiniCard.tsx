@@ -47,7 +47,7 @@ export default function ProjectMiniCard({
               <i></i>
               <i></i>
             </div>
-            <div className="mock-body">
+            <div className="mock-body-mini">
               <img
                 src={project.imageSrc}
                 loading="lazy"
