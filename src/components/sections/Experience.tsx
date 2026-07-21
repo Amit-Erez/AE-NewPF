@@ -34,8 +34,8 @@ export default function Experience() {
               <p className="tl-blurb">
                 Shipped a Stripe-integrated subscription app on Next.js with
                 Redux global state, Firebase Auth (email / Google / guest),
-                webhook-gated premium content, and protected route wrappers. 96
-                Lighthouse across the board.
+                webhook-gated premium content, protected route wrappers, and 99%
+                Lighthouse score.
               </p>
             </div>
             <div className="tl-stack">

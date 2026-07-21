@@ -1,6 +1,7 @@
 import ProjectCard from "../ui/ProjectCard";
 import { projects } from "../../data/projects";
 import { motion } from "framer-motion";
+import ProjectMiniCard from "../ui/ProjectMiniCard";
 
 export default function Work() {
   return (
@@ -59,32 +60,11 @@ export default function Work() {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <ProjectCard
-              project={projects[3]}
-              className={"project reveal in"}
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 44 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <ProjectCard
-              project={projects[4]}
-              className={"project flip reveal in"}
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 44 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <ProjectCard
-              project={projects[5]}
-              className={"project reveal in"}
-            />
+            <div className="minis-grid">
+              <ProjectMiniCard project={projects[3]} />
+              <ProjectMiniCard project={projects[4]} />
+              <ProjectMiniCard project={projects[5]} />
+            </div>
           </motion.div>
         </div>
       </div>

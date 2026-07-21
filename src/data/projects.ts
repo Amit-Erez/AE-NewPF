@@ -1,10 +1,10 @@
 import type { Project } from "../types";
 import eqPhoto from "../assets/pluginScreenshot.png";
-import pulsePhoto from "../assets/pulse-splitscreens.png";
+import pulsePhoto from "../assets/pulse-splitscreens.webp";
 import summaristPhoto from "../assets/summarist-PS.png";
 import skinstricPhoto from "../assets/Skinstric-PS.png";
 import ultraversePhoto from "../assets/NFT-PS.png";
-import musicIp from "../assets/Music-ip-dash.png";
+import musicIp from "../assets/Music-ip-dash.webp";
 
 export const projects: Project[] = [
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     title: "Summarist",
     subtitle: "Book Platform",
     description:
-      "A production book-summary app built with Next.js, TypeScript and Redux. Firebase Auth (email/Google/guest), Stripe-managed tiered subscriptions with webhook gating, audio playback, protected routes and a 96 Lighthouse score across performance, SEO and accessibility.",
+      "A production book-summary app built with Next.js, TypeScript and Redux. Firebase Auth, Stripe-managed tiered subscriptions with webhook gating, audio playback, protected routes and a 99% Lighthouse score.",
     tags: ["Next.js", "Redux", "Firebase", "Stripe", "SSR", "Webhooks"],
     liveDemoUrl: "https://summarist-io.vercel.app/",
     githubUrl: "https://github.com/Amit-Erez/Summarist",
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     title: "Skinstric-AI ",
     subtitle: "AI Skin Analysis",
     description:
-      "A responsive React app integrating an AI skin-analysis API. Custom camera capture and upload flow with client-side previews, an interactive results dashboard rendering complex health metrics for non-technical users, and sub-1.5s First Contentful Paint.",
+      "Responsive React app integrating an AI skin-analysis API. Custom camera capture and upload flow, client-side previews, interactive dashboard rendering complex metrics for non-technical users, and sub-1.5s FCP.",
     tags: [
       "React",
       "REST APIs",
@@ -101,8 +101,8 @@ export const projects: Project[] = [
     title: "Ultraverse ",
     subtitle: "NFT Marketplace",
     description:
-      "Converting a static marketplace into a fully dynamic application consuming multiple REST APIs. Axios async fetching, Owl Carousel and AOS for scroll-driven interactions, fully responsive across breakpoints, and a 15% load-time improvement after migrating from GitHub Pages to Vercel.",
-    tags: ["React", "Axios", "REST APIs", ">Owl Carousel", "AOS", "Vercel"],
+      "Converting a static marketplace into a fully dynamic application consuming multiple REST APIs. Axios async fetching, Owl Carousel and AOS for scroll-driven interactions, fully responsive, and a 15% load-time improvement after migrating from GitHub Pages to Vercel.",
+    tags: ["React", "Axios", "REST APIs", "Owl Carousel"],
     liveDemoUrl: "https://ultraverse-app.vercel.app/",
     githubUrl: "https://github.com/Amit-Erez/NFT-Marketplace-Internship",
     imageSrc: ultraversePhoto,
